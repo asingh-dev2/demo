@@ -11,6 +11,11 @@ pipeline {
             steps {
                 echo "Testing project..."
             }
+            stage('Deplot') {
+            steps {
+                echo "Testing project..."
+            }
+        }
         }
     }
 }
